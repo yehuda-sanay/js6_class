@@ -32,14 +32,7 @@ const user3=new Useres("nadav","talala",32,"nadavt@gmail.com");
 const user4=new Useres(user_firstname.value,user_lastname.value,user_age.value,user_email.value);
 console.log(user4);
 
-for(key in user4){
-    // let th =document.createElement("th");
-    // tableh.oppendChild(th);
-    // th.innerHTML=key+":"+" ";
-    // console.log(key+" ");
-    user_table.innerHTML+= `<tr> <td> ${user4[key]} </td></tr>`
 
-}
 
 
 
