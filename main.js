@@ -16,6 +16,7 @@
 //שאלה 3
 let tableh=document.getElementById("user_thead");
 let tableb=document.getElementById("user_tbody");
+let vll = document.getElementById("try");
 function UsersDitels(){
 class Useres {
     constructor(firstName,lastName,age,email){
@@ -32,7 +33,9 @@ const user3=new Useres("nadav","talala",32,"nadavt@gmail.com");
 const user4=new Useres(user_firstname.value,user_lastname.value,user_age.value,user_email.value);
 console.log(user4);
 
-
+for(const key in user1){
+    vll.innerHTML+=`<th>${user1[key]}</th>`;
+}
 
 
 
