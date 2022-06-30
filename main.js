@@ -39,18 +39,34 @@
 
 // }
 
-class Dog{
-    constructor(dogName,dogBreed,dateOfBirth){
-    this.dogName=dogName;
-    this.dogBreed=dogBreed;
-    this.dateOfBirth=dateOfBirth;
+// class Dog{
+//     constructor(dogName,dogBreed,dateOfBirth){
+//     this.dogName=dogName;
+//     this.dogBreed=dogBreed;
+//     this.dateOfBirth=dateOfBirth;
+// }
+// }
+// const dog1=new Dog("aviv","lavrador","16.02");
+// const dog2=new Dog("nadav","pitbul","15.03");
+// const dog3=new Dog("danny","german","22.06");
+// const dog4=new Dog("roy","border","02.03");
+// const dog5=new Dog("shaked","koly","12.11");
+// const dogArray=[dog1,dog2,dog3,dog4,dog5];
+
+// dogArray.forEach(item=>{
+//     console.log(item);
+// })
+
+class Teacher{
+    constructor(firstName,lastName,clas,email){
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.clas=clas;
+        this.email=email
+    }
 }
-}
-const dog1=new Dog("aviv","lavrador","16.02");
-const dog2=new Dog("nadav","pitbul","15.03");
-const dog3=new Dog("danny","german","22.06");
-const dog4=new Dog("roy","border","02.03");
-const dog5=new Dog("shaked","koly","12.11");
-const dogArray=[dog1,dog2,dog3,dog4,dog5];
+const teacher1=new Teacher("yosef","talala","א1","sdflsjdfsd@.com")
+
+
 
 
